@@ -1,0 +1,23 @@
+.Card {
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+body {
+  display: flex;
+}
+
+.todoList {
+  padding: 3px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+  gap: 4px;
+  margin-top: 15px;
+}
